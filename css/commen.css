@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {margin:0;padding:0;vertical-align:middle;border:0;}
+html, body {width:100%;height:100%;}
+html {overflow-y:scroll;}
+html.addModal {overflow:hidden;}
+body {font:normal 14px/1 "Helvetica","sans-serif","Noto Sans KR";color:#444;background:#fff;}
+ul, li {list-style:none;}
+a {color:inherit;text-decoration:none;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;font-size:14px;}
+.fixedclear::after {content:"";display:block;clear:both;} /* 플로팅 핵(hack) */
+.hide {display:none;}
+.blind{display:block;text-indent:2000px;overflow:hidden;}
+/* i, em, address {font-size:normal;} */
+header,main,footer,nav,section {display:block;}
+
+
+/* 스킵메뉴 */
+#skip {z-index:11;position:absolute;top:0;left:0;width:100%;}
+#skip li {width:100%;}
+#skip li a {display:block;line-height:0;font-size:0;text-align:center;background:#333;color:#fff;}
+#skip li a:focus {line-height:60px;font-size:20px;}
+
